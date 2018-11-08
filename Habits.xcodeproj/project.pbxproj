@@ -49,6 +49,7 @@
 		F982BD792193CE9A00242717 /* HabitsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HabitsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F982BD7B2193CE9A00242717 /* HabitsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HabitsFramework.h; sourceTree = "<group>"; };
 		F982BD7C2193CE9A00242717 /* HabitsFrameworkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HabitsFrameworkInfo.plist; sourceTree = "<group>"; };
+		F9CCA14B2193D69800AAF6C4 /* Habits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Habits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		F982BD562193C52200242717 = {
 			isa = PBXGroup;
 			children = (
+				F9CCA14B2193D69800AAF6C4 /* Habits.playground */,
 				F982BD862193CEBA00242717 /* Sources */,
 				F982BD892193D01400242717 /* Storyboards */,
 				F982BD882193CFA700242717 /* Resources */,
