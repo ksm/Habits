@@ -1,11 +1,15 @@
 import UIKit
 
-public class MainViewController: UIViewController {
+public class MainViewController: UITableViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        label.text = "Hi!"
-        view.addSubview(label)
+    }
+}
+
+public extension MainViewController {
+    public static func instantiate() -> MainViewController {
+        let bundle = Bundle(for: MainViewController.self)
+        let storyboard = UIStoryboard(name: "MainViewController", bundle: bundle)
+        return storyboard.instantiateInitialViewController()! as! MainViewController
     }
 }
