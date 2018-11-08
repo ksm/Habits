@@ -2,4 +2,6 @@ import HabitsFramework
 import PlaygroundSupport
 
 let mainViewController = MainViewController()
-PlaygroundPage.current.liveView = mainViewController
+let (parent, _) = playgroundControllers(child: mainViewController)
+
+PlaygroundPage.current.liveView = parent
