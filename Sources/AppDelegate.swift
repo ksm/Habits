@@ -6,8 +6,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let window = UIWindow()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let storyboard = UIStoryboard(name: "MainViewController", bundle: Bundle(for: MainViewController.self))
-        window.rootViewController = storyboard.instantiateInitialViewController()
+        let viewController = MainViewController()
+        window.rootViewController = viewController
+        window.backgroundColor = UIColor.white
         window.makeKeyAndVisible()
         return true
     }
