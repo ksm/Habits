@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F9263E092193DB710039D3E5 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9263E082193DB710039D3E5 /* MainViewController.storyboard */; };
 		F9263E0C2193E2FA0039D3E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9263E0B2193E2FA0039D3E5 /* SwiftMessages.framework */; };
+		F9263E0E2193E3AA0039D3E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9263E0B2193E2FA0039D3E5 /* SwiftMessages.framework */; };
 		F982BD632193C52200242717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982BD622193C52200242717 /* AppDelegate.swift */; };
 		F982BD6A2193C52400242717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F982BD692193C52400242717 /* Assets.xcassets */; };
 		F982BD6D2193C52400242717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F982BD6B2193C52400242717 /* LaunchScreen.storyboard */; };
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9263E0E2193E3AA0039D3E5 /* SwiftMessages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +486,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/HabitsFrameworkInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +518,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/HabitsFrameworkInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
