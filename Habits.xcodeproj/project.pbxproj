@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91682C6220F533B00682A8C /* SwiftMessages.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9263E0B2193E2FA0039D3E5 /* SwiftMessages.framework */; };
 		F9263E092193DB710039D3E5 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9263E082193DB710039D3E5 /* MainViewController.storyboard */; };
 		F9263E0C2193E2FA0039D3E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9263E0B2193E2FA0039D3E5 /* SwiftMessages.framework */; };
 		F9263E0E2193E3AA0039D3E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9263E0B2193E2FA0039D3E5 /* SwiftMessages.framework */; };
@@ -29,6 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F91682C4220F532300682A8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F91682C6220F533B00682A8C /* SwiftMessages.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F982BD852193CE9A00242717 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +196,7 @@
 				F982BD752193CE9A00242717 /* Sources */,
 				F982BD762193CE9A00242717 /* Frameworks */,
 				F982BD772193CE9A00242717 /* Resources */,
+				F91682C4220F532300682A8C /* CopyFiles */,
 			);
 			buildRules = (
 			);
