@@ -16,7 +16,12 @@ public class MainViewController: UITableViewController {
         view.titleLabel?.isHidden = true
         view.button?.isHidden = true
         view.bodyLabel?.text = "Toast!"
-        SwiftMessages.show(view: view)
+        
+        var config = SwiftMessages.Config.init()
+        config.presentationContext = .viewController(self)
+        config.duration = .forever
+        
+        SwiftMessages.show(config: config, view: view)
     }
     
     @objc private dynamic func alert() {
