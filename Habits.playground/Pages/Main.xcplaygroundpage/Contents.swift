@@ -1,9 +1,7 @@
-import HabitsFramework
-import PlaygroundSupport
 import UIKit
+import PlaygroundSupport
+import HabitsFramework
 
-let mainViewController = MainViewController.instantiate()
-let navigationController = UINavigationController(rootViewController: mainViewController)
-let (parent, _) = playgroundControllers(child: navigationController)
+let (parent, _) = playgroundControllers(child: UINavigationController(rootViewController: MainViewController.instantiate()))
 
 PlaygroundPage.current.liveView = parent
